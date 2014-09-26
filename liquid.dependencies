@@ -8,7 +8,7 @@
 "target_path": "device/lge/gee-common"
 },
 {
-"repository": "ShoaibE970/android_device_lge_geeb",
+"repository": "Clementinox/device_lge_geeb",
 "target_path": "device/lge/geeb"
 }
 ]
