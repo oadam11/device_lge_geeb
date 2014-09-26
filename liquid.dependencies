@@ -1,0 +1,14 @@
+[
+{
+"repository": "Clementinox/AK-xGenesis",
+"target_path": "kernel/lge/gee"
+},
+{
+"repository": "xboxfanj/android_device_lge_gee-common",
+"target_path": "device/lge/gee-common"
+},
+{
+"repository": "ShoaibE970/android_device_lge_geeb",
+"target_path": "device/lge/geeb"
+}
+]
