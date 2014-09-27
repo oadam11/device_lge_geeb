@@ -19,7 +19,7 @@
 #
 # Everything in this directory will become public
 
-DEVICE_PACKAGE_OVERLAYS := device/lge/geeb/overlay
+DEVICE_PACKAGE_OVERLAYS += device/lge/geeb/overlay
 
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product, vendor/lge/gee/gee-vendor.mk)
