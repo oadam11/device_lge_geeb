@@ -18,8 +18,6 @@
 # are also specific to geeb devices
 #
 # Everything in this directory will become public
-# Torch
-PRODUCT_PACKAGES += Torch
 
 DEVICE_PACKAGE_OVERLAYS += device/lge/geeb/overlay
 
