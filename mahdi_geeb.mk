@@ -19,7 +19,7 @@ $(call inherit-product-if-exists, vendor/mahdi/config/telephony.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := mahdi_geeb
+PRODUCT_NAME := full_geeb
 PRODUCT_DEVICE := geeb
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Optimus G
