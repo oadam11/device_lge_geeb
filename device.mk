@@ -21,6 +21,9 @@
 
 DEVICE_PACKAGE_OVERLAYS += device/lge/geeb/overlay
 
+PRODUCT_COPY_FILES += \
+        device/lge/geeb/thermald-geeb.conf:system/etc/thermald.conf
+
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product, vendor/lge/gee/gee-vendor.mk)
 
