@@ -35,4 +35,4 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/geeb/device.mk)
-$(call inherit-product-if-exists, vendor/lge/gee/gee-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/geeb/geeb-vendor.mk)
