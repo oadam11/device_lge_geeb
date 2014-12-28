@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
 	frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
 	frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
 	device/lge/geeb/media_codecs.xml:system/etc/media_codecs.xml \
+	frameworks/av/media/libstagefright/data/media_codecs_ffmpeg.xml:system/etc/media_codecs_ffmpeg.xml \
 	device/lge/geeb/twrp.fstab:etc/twrp.fstab
 
 # Prebuilt kl and kcm keymaps
@@ -248,9 +249,6 @@ PRODUCT_PACKAGES += \
         hostapd_default.conf \
         wpa_supplicant_overlay.conf \
         p2p_supplicant_overlay.conf
-
-PRODUCT_PACKAGES += \
-	power.geeb
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	rild.libpath=/system/lib/libril-qc-qmi-1.so
