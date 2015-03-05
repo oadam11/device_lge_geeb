@@ -5,7 +5,7 @@
   "branch": "master"
 },
 {
- "repository":  "Clementinox/vendor_lge_gee"
+ "repository":  "Clementinox/vendor_lge_gee",
  "target_path": "vendor/lge/gee",
  "branch":  "master"
 },
