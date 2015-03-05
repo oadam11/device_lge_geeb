@@ -1,0 +1,17 @@
+[
+ {
+  "repository": "Clementinox/device_lge_gee-common",
+  "target_path": "device/lge/gee-common",
+  "branch": "master"
+},
+{
+ "repository":  "Clementinox/vendor_lge_gee"
+ "target_path": "vendor/lge/gee",
+ "branch":  "master"
+},
+{
+ "repository":  "SlimRoms/kernel_lge_geeb",
+ "target_path": "kernel/lge/geeb",
+ "branch":  "lp5.0"
+}
+]
